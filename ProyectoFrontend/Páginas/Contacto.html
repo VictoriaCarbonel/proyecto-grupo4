@@ -19,15 +19,26 @@
             <label for="Apellido">Apellido:</label>
             <input type="text" name="Apellido" id="Apellido">
             <br>
+            <label for="Género">Género:</label>
+            <label><input type="radio" name="radio" value="Femenino">Femenino </label>
+            <label><input type="radio" name="radio" value="Masculino">Masculino </label>
+            <label><input type="radio" name="radio" value="Otro">Otro </label>
+            <br>
             <label for="Email">Email:</label>
             <input type="email" name="Email" id="Email">
             <br>
             <label for="Tema">Tema:</label>
-            <input type="text" name="Tema" id="Tema">
+            <select name="Tema">
+                <option value="Devolución">Devolución</option>
+                <option value="Quiero ser proveedor">Quiero ser proveedor</option>
+                <option value="Servicio al cliente">Servicio al cliente</option>
+                <option value="Trabaja con nosotros">Trabajá con nosotros</option>
+            </select>
             <br>
             Tu mensaje: <textarea name="Mensaje" rows="10" cols="40">Escribi tu mensaje</textarea>
             <br>
             <input type="submit" value="Enviar">
+            
         </form>
 
         <img src="../Imagenes/desk-with-objects.jpg">
