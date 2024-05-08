@@ -12,10 +12,13 @@
 
 nav {
     background-color: #ce7825;
+    text-align: center;
 }
 
 a {
     background-color: #ce7825;
-    color:#ffeed7
+    color:#ffeed7;
+    margin: 3%;
+
 }
 
