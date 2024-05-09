@@ -13,6 +13,10 @@
 nav {
     background-color: #ce7825;
     text-align: center;
+    border-style:solid;
+    border-color: #ce7825;
+    border-width: 0.25cm;
+    border-radius: 0.15cm;
 }
 
 a {
@@ -22,10 +26,14 @@ a {
 
 }
 
+
 p {
     font-size: large;
 }
 
+h1 {
+    text-align: center;
+}
 
 
 /*Contacto*/
