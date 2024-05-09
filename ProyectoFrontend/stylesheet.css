@@ -1,5 +1,5 @@
 
-/*Detalles generales*/
+/*General*/
 
 * {
     font-family: 'Tenor Sans', sans-serif;
@@ -19,28 +19,30 @@ nav {
     z-index: 1 ;
 }
 
-a:hover{color:gold}
+
 
 a {
     color: #984418;
     margin: 3%;
+    font-size: large;
 }
-
+a:hover{color:goldenrod}
 
 
 p {
     font-size: large;
 }
 
+
 h1 {
     text-align: center;
 }
+
 
 footer {
     background-color: #984418;
     padding: 8px;
     text-align: center;
-
 }
 
 footer * {
@@ -58,6 +60,7 @@ footer * {
         gap: 0cm;
 }
 
+
 .columnaform {
     break-inside: avoid;
     border: 4px solid #984418;
@@ -73,11 +76,13 @@ form {
     text-align: left;
 }
 
+
 .nombre {
     margin-left: 0%;
     margin-bottom: 2%;
     margin-right: 3%;
 }
+
 
 .apellido {
     margin-left: 0%;
@@ -92,6 +97,7 @@ figure {
     left: 600px;
     bottom: 300px;
 }
+
 
 iframe {
     display: block;
