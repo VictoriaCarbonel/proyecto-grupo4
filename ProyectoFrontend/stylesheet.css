@@ -15,6 +15,9 @@ nav {
     text-align: center;
     padding: 15px;
     border-radius: 0.15cm;
+    position: sticky;
+    top: 0;
+    z-index: 1 ;
 }
 
 a {
@@ -79,3 +82,14 @@ form {
 }
 
 
+/*Sobre Nosotros*/
+
+figure {
+    position: relative;
+    left: 600px;
+    bottom: 300px;
+}
+
+iframe {
+    display: block;
+}
