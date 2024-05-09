@@ -13,9 +13,7 @@
 nav {
     background-color: #ce7825;
     text-align: center;
-    border-style:solid;
-    border-color: #ce7825;
-    border-width: 0.25cm;
+    padding: 15px;
     border-radius: 0.15cm;
 }
 
@@ -26,13 +24,23 @@ a {
 
 }
 
-
 p {
     font-size: large;
 }
 
 h1 {
     text-align: center;
+}
+
+footer {
+    background-color: #ce7825;
+    padding: 8px;
+    text-align: center;
+
+}
+
+footer * {
+    background-color: inherit;
 }
 
 
