@@ -11,21 +11,22 @@
 
 
 nav {
-    background-color: #ce7825;
     text-align: center;
     padding: 15px;
-    border-radius: 0.15cm;
+    border-radius: 0.25cm;
     position: sticky;
     top: 0;
     z-index: 1 ;
 }
 
-a {
-    background-color: #ce7825;
-    color:#ffeed7;
-    margin: 3%;
+a:hover{color:gold}
 
+a {
+    color: #984418;
+    margin: 3%;
 }
+
+
 
 p {
     font-size: large;
@@ -36,7 +37,7 @@ h1 {
 }
 
 footer {
-    background-color: #ce7825;
+    background-color: #984418;
     padding: 8px;
     text-align: center;
 
@@ -44,7 +45,9 @@ footer {
 
 footer * {
     background-color: inherit;
+    color: #ffeed7;
 }
+
 
 
 /*Contacto*/
@@ -57,7 +60,7 @@ footer * {
 
 .columnaform {
     break-inside: avoid;
-    border: 4px solid #ce7825;
+    border: 4px solid #984418;
     border-radius: 0.5cm;
     padding: 6%;
     margin-left: 0%;
