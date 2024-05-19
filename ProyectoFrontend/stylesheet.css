@@ -14,7 +14,6 @@
 nav {
     text-align: center;
     padding: 15px;
-    border-radius: 0.25cm;
     position: sticky;
     top: 0;
     z-index: 1 ;
@@ -29,6 +28,7 @@ a {
     text-decoration:none;
     transition: all 0.3s ease, left 0.3s ease;
 }
+
 a:hover{color:goldenrod;
     border-bottom: 1px solid;
 }
@@ -62,48 +62,45 @@ img {
 
 
 /*Inicio*/
+
 .textobienvenida {
     text-align: center;
 }
 
 
 
+
+
 /*Contacto*/
 
-.container {
-        column-count: 2;
-        text-align: center;
-        gap: 0cm;
+.contacto {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 1fr;
+        grid-template-areas:  "texto imagen2"
+                              "formulario imagen2";
+        gap: 10px;
 }
 
+.texto {
+    grid-area: texto;
+    grid-template-columns: 1 / 3;
+}
 
-.columnaform {
-    break-inside: avoid;
-    border: 4px solid #984418;
-    border-radius: 0.5cm;
-    padding: 6%;
-    margin-left: 0%;
-    margin-right: 0%;
+.formulario {
+    grid-area: formulario;
+}
+
+.imagen2 {
+    grid-area: imagen2;
+    place-self: center;
 }
 
 
 form {
     font-size: large;
-    text-align: left;
 }
 
-
-.nombre {
-    margin-left: 0%;
-    margin-bottom: 2%;
-    margin-right: 3%;
-}
-
-
-.apellido {
-    margin-left: 0%;
-    margin-bottom: 2%;
-}
 
 
 /*Sobre Nosotros*/
@@ -114,7 +111,7 @@ form {
     grid-template-rows: 1fr 1fr ;
     grid-template-areas: "contenido imagen"
                          "mapa imagen";
-    grid-gap: 10px;
+    gap: 10px;
 }
 
 .contenido{
