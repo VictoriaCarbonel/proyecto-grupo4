@@ -108,13 +108,26 @@ form {
 
 /*Sobre Nosotros*/
 
-figure {
-    position: relative;
-    left: 600px;
-    bottom: 300px;
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-areas: "contenido imagen"
+                         "mapa imagen";
+    grid-gap: 10px;
+}
+
+.contenido{
+    grid-area: contenido;
+}
+
+.imagen {
+    grid-area: imagen;
+}
+
+.mapa {
+    grid-area: mapa;
 }
 
 
-iframe {
-    display: block;
-}
+
