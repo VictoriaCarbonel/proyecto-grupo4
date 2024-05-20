@@ -107,11 +107,17 @@ form {
 
 
 .enviar{
-    background-color: #984418;
+    background-color: chocolate;
+    border: 0cm;
     color: #ffeed7;
     width: 70px;
     height: 30px;
     font-size: large;
+    transition: all 0.3s ease, left 0.3s ease;
+}
+
+.enviar:hover{
+    background-color: rgb(177, 89, 26);
 }
 
 .enviarp{
