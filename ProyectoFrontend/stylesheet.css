@@ -158,3 +158,68 @@ textarea{
 
 
 
+/*Productos*/
+
+.compralibros{
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(4, 430px);
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: stretch;
+    
+}
+
+
+.producto{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 210px);
+    grid-template-areas: "imagen"
+                         "detalles";
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+}
+
+.imagenprod{
+    grid-area: imagen;
+    max-width: 40%;
+    height: auto;
+    justify-self: center;
+}
+
+.detalles-prod{
+    grid-area: detalles;
+    justify-self: center;
+}
+
+.titulo{
+    color: chocolate;
+}
+
+.autor, .precio{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.comprar{
+    border-radius: 0.15cm;
+    border-style:groove;
+    border-width: 0px;
+    background-color: chocolate;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    width: 80px;
+    height: 30px;
+    transition: all 0.3s ease, left 0.3s ease;
+
+}
+
+.comprar:hover{
+    background-color: rgb(177, 89, 26);
+
+}
