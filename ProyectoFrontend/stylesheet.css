@@ -170,7 +170,6 @@ textarea{
     display: grid;
     grid-template-columns: repeat(3, 380px);
     grid-template-rows: repeat(4, 430px);
-    gap: 10px;
     padding: 10px;
     justify-content: center;
     align-items: stretch;
@@ -180,26 +179,34 @@ textarea{
 
 .producto{
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 180px);
     grid-template-areas: "imagen"
                          "detalles";
     margin-top: 50px;
-    align-items: center;
-    text-align: center;
+    align-content: center;
+    align-items: start;
+    text-align:center;
+    transition: all 0.5s ease, left 0.5s ease;
 }
+
+.producto:hover{
+    border-color: chocolate;
+    border-radius: 0.25cm;
+    border-width: 2px;
+    border-style:groove;
+}
+
 
 .imagenprod{
     grid-area: imagen;
     max-width: 40%;
     height: auto;
     justify-self: center;
+    bottom: 50px;
 }
 
 .detalles-prod{
     grid-area: detalles;
-    justify-self: center;
-
+    
 }
 
 .titulo{
