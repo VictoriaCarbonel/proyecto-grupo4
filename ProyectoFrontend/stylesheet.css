@@ -3,13 +3,16 @@
 
 * {
     font-family: 'Tenor Sans', sans-serif;
-    color: #984418;
+    color: chocolate;
     background-color: #ffeed7;
-    margin-left: 0.25cm ;
-    margin-right: 0.25cm;
     box-sizing: border-box;
 }
 
+html, body { width: 100%; 
+             height: 100%; 
+             margin: 0; 
+             padding: 0; 
+}
 
 nav {
     text-align: center;
@@ -23,7 +26,7 @@ nav {
 
 
 a {
-    color: #984418;
+    color: chocolate;
     margin: 3%;
     font-size: large;
     text-decoration:none;
@@ -46,10 +49,11 @@ h1 {
 
 
 footer {
-    background-color: #984418;
+    background-color: chocolate;
     padding: 8px;
     text-align: center;
-    margin: 10px;
+    margin-top: 10px;
+
 }
 
 footer * {
