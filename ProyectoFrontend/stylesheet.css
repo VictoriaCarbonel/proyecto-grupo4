@@ -66,6 +66,9 @@ img {
     height: auto;
 }
 
+main{
+    margin: 20px;
+}
 
 
 /*Inicio*/
@@ -73,8 +76,6 @@ img {
 .textobienvenida {
     text-align: center;
 }
-
-
 
 
 
@@ -107,7 +108,6 @@ form {
     font-size: large;
     padding: 10px;
 }
-
 
 
 .enviar{
@@ -160,6 +160,8 @@ textarea{
 
 .imagen {
     grid-area: imagen;
+    align-items: center;
+    justify-self: center;
 }
 
 .mapa {
@@ -189,14 +191,14 @@ textarea{
     align-content: center;
     align-items: start;
     text-align:center;
-    transition: all 0.5s ease, left 0.5s ease;
+    border-radius: 0.25cm;
+    border-width: 1px;
+    transition: all 0.3s ease, left 0.5s ease;
 }
 
 .producto:hover{
-    border-color: chocolate;
-    border-radius: 0.25cm;
-    border-width: 2px;
-    border-style:groove;
+    border: groove chocolate;
+    
 }
 
 
