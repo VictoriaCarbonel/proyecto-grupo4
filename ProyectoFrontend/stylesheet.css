@@ -101,68 +101,37 @@ img {
 
 form {
     font-size: large;
-    border-color:#984418;
-    border-style:groove;
-    border-radius: 0.35cm;
-    padding: 30px;
+    padding: 10px;
 }
 
-.form-grid{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: repeat(5, 70px);
-    grid-template-areas: "nombre apellido"
-                         "genero genero"
-                         "email email"
-                         "tema tema"
-                         "mensaje mensaje"
-                         "enviar enviar";
-    justify-items:baseline;
-}
 
-.nombre{
-    grid-area: nombre;
-    
-}
-
-.apellido{
-    grid-area: apellido;
-    
-}
-
-.genero{
-    grid-area: genero;
-    
-}
-
-.email{
-    grid-area: email;
-}
-
-.tema{
-    grid-area: tema;
-    
-}
-
-.mensaje{
-    grid-area: mensaje;
-}
 
 .enviar{
-    grid-area: enviar;
-    justify-self: center;
+    background-color: #984418;
+    color: #ffeed7;
+    width: 70px;
+    height: 30px;
+    font-size: large;
 }
 
-textarea{
-    resize:vertical;
+.enviarp{
+    text-align: center;  
 }
 
 input, textarea, select{
      border-radius: 0.10cm;
      border-color: #c99173;
      border-style:ridge;
+     font-size: medium;
 }
 
+textarea{
+    width: 100%;
+}
+
+.input2{
+    width: 100%;
+}
 
 /*Sobre Nosotros*/
 

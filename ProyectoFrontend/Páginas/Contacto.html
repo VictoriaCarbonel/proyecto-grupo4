@@ -28,16 +28,16 @@
 
             <div class="nombre">
             <label for="Nombre" >Nombre:</label>
-            <input type="text" name="Nombre" id="Nombre">
+            <br>
+            <input type="text" name="Nombre" id="Nombre" class="input2">
             </div>
-
-            <div class="apellido">
-            <label for="Apellido">Apellido:</label>
-            <input type="text" name="Apellido" id="Apellido">
+            <br>
+            <div class="telefono">
+            <label for="telefono">Teléfono:</label>
+            <br>
+            <input type="tel" name="telefono" id="telefono" class="input2">
             </div>
-
-            
-
+            <br>
             <div class="genero">
             <label id="genero">Género:</label>
             <label><input type="radio" name="radio" value="Femenino" >Femenino </label>
@@ -45,34 +45,39 @@
             <label><input type="radio" name="radio" value="Otro" >Otro </label>
             </div>
             
-            <br><br>
+            <br>
 
             <div class="email">
-            <label for="Email">Email:</label>
-            <input type="email" name="Email" id="Email">
+            <label for="email">Correo Electrónico:</label>
+            <br>
+            <input type="email" name="Email" id="Email" class="input2">
             </div>
 
-            <br><br>
+            <br>
 
             <div class="tema">
                <label id="Tema">Tema:</label>
-               <select name="Tema">
+               <br>
+               <select name="Tema" class="input2">
                    <option value="Devolución">Devolución</option>
                    <option value="Quiero ser proveedor">Quiero ser proveedor</option>
-                   <option value="Servicio al cliente">Servicio al cliente</option>
-                   <option value="Trabaja con nosotros">Trabajá con nosotros</option>
+                   <option value="Servicio al cliente" >Servicio al cliente</option>
+                   <option value="Trabaja con nosotros" >Trabajá con nosotros</option>
                </select>
             </div>
 
             <br>
 
             <div class="mensaje">          
-               Tu mensaje: <textarea name="Mensaje" rows="4" cols="30">Escribi tu mensaje</textarea>    
+                 Mensaje: 
+               <br>
+            <textarea name="Mensaje" rows="3" cols="60">Escribi tu mensaje</textarea>    
             </div>  
-            
-            <div class="enviar">
-            <input type="submit" value="Enviar"> 
-            </div>
+            <br>
+
+            <div class="enviarp">
+            <input type="submit" value="Enviar" class="enviar">
+            </div> 
 
           </form>
         </div>
