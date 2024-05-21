@@ -257,23 +257,78 @@ textarea{
                          "playlist"
                          "newsteller"
                          "redes-sociales";
-
 }
 
 .presentacion{
     grid-area: presentacion;
+    font-weight:600 ;
 }
 
 .novedades{
     grid-area: novedades;
+
 }
 
 .playlist{
     grid-area: playlist;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "spotify textoplaylist";
+    text-align: right;
+    background-color: #b48b75;
+
+}
+
+.spotify{
+    align-self: center;
+    justify-self: center;
+}
+
+.textoplaylist{
+    background-color:#b48b75;
+    color: #ffeed7;
+    font-weight: 600;
+    font-size:x-large;
+    padding: 60px;
 }
 
 .newsteller{
+    
     grid-area: newsteller;
+    display: grid;
+    grid-template-areas: "texto texto"
+                         "input enviar";
+    text-align: center;
+    background-color: #89463e;
+    align-items: center;
+    
+}
+
+.textonewsteller{
+    grid-area: texto;
+    background-color: #89463e;
+    color:#ffeed7;
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.inputnews{
+    grid-area: input;
+    width: 30%;
+    height: 40%;
+    position: relative;
+    left: 500px;
+    bottom:25px;
+}
+
+.enviar2{
+    grid-area: enviar;
+    width: 20%;
+    height: 40%;
+    font-weight: 700;
+    border-style:none;
+    align-self: flex-start;
+
 }
 
 .redes-sociales{
