@@ -86,22 +86,24 @@ main{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto 1fr;
         grid-template-areas:  "texto texto"
-                              "formulario imagen2";
+                              "formulario formulario";
         gap: 10px;
 }
 
 .texto {
     grid-area: texto;
+    text-align: center;
+}
+
+.texto > p {
+    font-style: italic;
 }
 
 .formulario {
     grid-area: formulario;
+    text-align: center;
 }
 
-.imagen2 {
-    grid-area: imagen2;
-    place-self: center;
-}
 
 
 form {
@@ -129,18 +131,25 @@ form {
 }
 
 input, textarea, select{
-     border-radius: 0.10cm;
-     border-color: #c99173;
-     border-style:ridge;
+     border-radius: 0cm;
+     border-color:#89463e;
+     border-style:solid;
+     border-width: 1px;
      font-size: medium;
 }
 
 textarea{
-    width: 100%;
+    width: 50%;
+}
+
+.archivo{
+    border-style: none;
 }
 
 .input2{
-    width: 100%;
+    width: 50%;
+    height: 100%;
+    border-style: solid;
 }
 
 /*Sobre Nosotros*/
