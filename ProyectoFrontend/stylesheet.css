@@ -108,7 +108,9 @@ main{
 
 form {
     font-size: large;
-    padding: 10px;
+    padding: 20px;
+    font-size: medium;
+    
 }
 
 
@@ -131,10 +133,10 @@ form {
 }
 
 input, textarea, select{
-     border-radius: 0cm;
+     border-radius: 0.15cm;
      border-color:#89463e;
      border-style:solid;
-     border-width: 1px;
+     border-width: 2px;
      font-size: medium;
 }
 
@@ -142,8 +144,11 @@ textarea{
     width: 50%;
 }
 
-.archivo{
+.archivo > input{
     border-style: none;
+}
+.archivo > p{
+    font-size: medium;
 }
 
 .input2{
@@ -151,6 +156,8 @@ textarea{
     height: 100%;
     border-style: solid;
 }
+
+
 
 /*Sobre Nosotros*/
 
