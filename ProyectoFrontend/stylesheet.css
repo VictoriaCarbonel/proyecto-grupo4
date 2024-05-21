@@ -232,7 +232,7 @@ textarea{
     border-radius: 0.15cm;
     border-style:groove;
     border-width: 0px;
-    background-color: chocolate;
+    background-color: #d2691e;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight:bold;
@@ -261,12 +261,13 @@ textarea{
 
 .presentacion{
     grid-area: presentacion;
-    font-weight:600 ;
+    font-weight:600;
+    ;
 }
 
 .novedades{
     grid-area: novedades;
-
+    font-size: x-large
 }
 
 .playlist{
@@ -315,22 +316,24 @@ textarea{
 .inputnews{
     grid-area: input;
     width: 30%;
-    height: 40%;
+    height: 50%;
     position: relative;
     left: 500px;
-    bottom:25px;
+    bottom:30px;
 }
 
 .enviar2{
     grid-area: enviar;
-    width: 20%;
-    height: 40%;
+    width: 15%;
+    height: 50%;
     font-weight: 700;
     border-style:none;
     align-self: flex-start;
-
+    position: relative;
+    bottom: 9px;
 }
 
 .redes-sociales{
     grid-area: redes-sociales;
+    background-color: #fbcc88;
 }
