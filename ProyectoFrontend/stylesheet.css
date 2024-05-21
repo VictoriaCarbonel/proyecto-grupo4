@@ -346,3 +346,7 @@ textarea{
     grid-area: redes-sociales;
     background-color: #fbcc88;
 }
+
+.maininicio{
+    margin:0;
+}
