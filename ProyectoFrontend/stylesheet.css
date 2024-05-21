@@ -3,8 +3,8 @@
 
 * {
     font-family: 'Tenor Sans', sans-serif;
-    color: chocolate;
-    background-color: #ffeed7;
+    color: #85755b;
+    background-color: #ffedda;
     box-sizing: border-box;
 }
 
@@ -165,8 +165,8 @@ textarea{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr ;
-    grid-template-areas: "contenido imagen"
-                         "mapa imagen";
+    grid-template-areas: "contenido mapa"
+                         "contenido mapa";
     gap: 10px;
 }
 
@@ -182,6 +182,8 @@ textarea{
 
 .mapa {
     grid-area: mapa;
+    align-self:center;
+    justify-self: center;
 }
 
 
@@ -267,12 +269,11 @@ textarea{
 .inicio{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     grid-template-areas: "presentacion"
                          "novedades"
                          "playlist"
-                         "newsteller"
-                         "redes-sociales";
+                         "newsteller";
 }
 
 .presentacion{
@@ -306,7 +307,7 @@ textarea{
     color: #ffeed7;
     font-weight: 600;
     font-size:x-large;
-    padding: 60px;
+    padding: 90px;
 }
 
 .newsteller{
@@ -332,10 +333,10 @@ textarea{
 .inputnews{
     grid-area: input;
     width: 30%;
-    height: 50%;
+    height: 52%;
     position: relative;
     left: 500px;
-    bottom:30px;
+    bottom:38px;
 }
 
 .enviar2{
@@ -347,11 +348,12 @@ textarea{
     align-self: flex-start;
     position: relative;
     bottom: 9px;
+    transition: all 0.3s ease;
 }
 
-.redes-sociales{
-    grid-area: redes-sociales;
-    background-color: #fbcc88;
+.enviar2:hover{
+    background-color: #bdafa1;
+    color:#fff7eb;
 }
 
 .maininicio{
