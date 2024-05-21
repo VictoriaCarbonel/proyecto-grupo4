@@ -193,11 +193,11 @@ textarea{
     text-align:center;
     border-radius: 0.25cm;
     border-width: 1px;
-    transition: all 0.3s ease, left 0.5s ease;
+    transition: all 0.3s ease;
 }
 
 .producto:hover{
-    border: groove chocolate;
+    border: solid chocolate;
     
 }
 
@@ -244,4 +244,38 @@ textarea{
 
 .comprar:hover{
     background-color: rgb(177, 89, 26);
+}
+
+/*Inicio*/
+
+.inicio{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: "presentacion"
+                         "novedades"
+                         "playlist"
+                         "newsteller"
+                         "redes-sociales";
+
+}
+
+.presentacion{
+    grid-area: presentacion;
+}
+
+.novedades{
+    grid-area: novedades;
+}
+
+.playlist{
+    grid-area: playlist;
+}
+
+.newsteller{
+    grid-area: newsteller;
+}
+
+.redes-sociales{
+    grid-area: redes-sociales;
 }
