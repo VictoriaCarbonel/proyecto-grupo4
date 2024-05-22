@@ -358,12 +358,16 @@ textarea{
     grid-template-areas: "spotify textoplaylist";
     text-align: right;
     background-color: #fccebe;
+     
 
 }
 
 .spotify{
     align-self: center;
     justify-self: center;
+    width:90%; 
+    height:152px;
+    border-radius: 12px;
 }
 
 .textoplaylist{
