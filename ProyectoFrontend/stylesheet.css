@@ -269,7 +269,7 @@ textarea{
 .inicio{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 120px)  1fr repeat(2,400px);
+    grid-template-rows: repeat(2, 120px)  720px repeat(2,360px);
     grid-template-areas: "presentacion"
                          "nuestroespacio"
                          "fotos"
@@ -350,12 +350,12 @@ textarea{
 .enviar2{
     grid-area: enviar;
     width: 15%;
-    height: 33%;
+    height: 34%;
     font-weight: 700;
     border-style:none;
     align-self: flex-start;
     position: relative;
-    bottom: 8px;
+    bottom: 14px;
     transition: all 0.3s ease;
 }
 
@@ -406,3 +406,4 @@ textarea{
     95% { transform: translateX(-300%); }
     100% { transform: translateX(0%); }
 }
+
