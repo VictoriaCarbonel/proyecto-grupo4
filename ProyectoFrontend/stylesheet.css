@@ -19,14 +19,13 @@ html, body { width: 100%;
 
 
 a {
-    color: chocolate;
     margin: 3%;
     font-size: large;
     text-decoration:none;
     transition: all 0.3s ease, left 0.3s ease;
 }
 
-a:hover{color:goldenrod;
+a:hover{color:#c2c882;
     border-bottom: 1px solid;
 }
 
@@ -34,11 +33,13 @@ header{
     display: flex;
     width: 100%;
     justify-content: space-between;
-    padding: 20px;
+    padding: 32px;
     position: sticky;
     top: 0;
     z-index: 2 ;
     display:flex;
+    background-color: #b9595a;
+    
 
 }
 
@@ -46,6 +47,8 @@ header >h2{
     text-align: left;
     margin: 0;
     padding: 0;
+    background-color: #b9595a;
+    color: #322d27;
 }
 
 header > nav{
@@ -53,6 +56,12 @@ header > nav{
     width: 600px;
     margin: 0;
     padding: 0;
+    background-color: #b9595a;
+}
+
+header > nav > a{
+    background-color: #b9595a;
+    color: #322d27;
 }
 
 p {
@@ -66,16 +75,15 @@ h1 {
 
 
 footer {
-    background-color: chocolate;
+    background-color:#322d27;
     padding: 8px;
     text-align: center;
-    margin-top: 10px;
 
 }
 
 footer * {
     background-color: inherit;
-    color: #ffeed7;
+    color: #c2c882;
 }
 
 img {
@@ -87,12 +95,6 @@ main{
     margin: 20px;
 }
 
-
-/*Inicio*/
-
-.textobienvenida {
-    text-align: center;
-}
 
 
 
@@ -115,6 +117,7 @@ main{
 
 .texto > p {
     font-style: italic;
+    font-weight: 600;
 }
 
 .texto > h1 {
@@ -125,6 +128,7 @@ main{
 .formulario {
     grid-area: formulario;
     text-align: center;
+    font-weight: 600;
 }
 
 
@@ -138,7 +142,7 @@ form {
 
 
 .enviar{
-    background-color: chocolate;
+    background-color: #c2c882;
     border: 0cm;
     color: #ffeed7;
     width: 70px;
@@ -148,7 +152,7 @@ form {
 }
 
 .enviar:hover{
-    background-color: rgb(177, 89, 26);
+    background-color: #a5aa6f;
 }
 
 .enviarp{
@@ -157,7 +161,7 @@ form {
 
 input, textarea, select{
      border-radius: 0.15cm;
-     border-color:#89463e;
+     border-color:#85755b;
      border-style:solid;
      border-width: 2px;
      font-size: medium;
@@ -195,6 +199,7 @@ textarea{
 
 .contenido{
     grid-area: contenido;
+    font-weight: 600;
 }
 
 .imagen {
@@ -232,14 +237,6 @@ textarea{
     align-content: center;
     align-items: start;
     text-align:center;
-    border-radius: 0.25cm;
-    border-width: 1px;
-    transition: all 0.3s ease;
-}
-
-.producto:hover{
-    border: solid chocolate;
-    
 }
 
 
@@ -257,12 +254,12 @@ textarea{
 }
 
 .titulo{
-    color: chocolate;
+    color: #b9595a;
 }
 
 .autor, .precio{
     font-size: medium;
-    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }
 
 .titulo, .autor, .precio{
@@ -273,9 +270,8 @@ textarea{
     border-radius: 0.15cm;
     border-style:groove;
     border-width: 0px;
-    background-color: #d2691e;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c2c882;
+    color: #ffedda;
     font-weight:bold;
     width: 80px;
     height: 30px;
@@ -284,11 +280,18 @@ textarea{
 }
 
 .comprar:hover{
-    background-color: rgb(177, 89, 26);
+    background-color: #a5aa6f;
 }
+
+
+
+
 
 /*Inicio*/
 
+.textobienvenida {
+    text-align: center;
+}
 .inicio{
     display: grid;
     grid-template-columns: 1fr;
@@ -319,13 +322,14 @@ textarea{
 .nuestroespacio{
     grid-area: nuestroespacio;
     position: relative;
-    background-color: #b48b75;
+    background-color: #85755b;
 }
 
 .nuestroespacio > h3{
     font-size: xx-large;
     margin: 40px;
-    background-color: #b48b75;
+    background-color: #85755b;
+    color:#ffedda;
 }
 
 
@@ -335,7 +339,7 @@ textarea{
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "spotify textoplaylist";
     text-align: right;
-    background-color: #b48b75;
+    background-color: #fccebe;
 
 }
 
@@ -345,8 +349,8 @@ textarea{
 }
 
 .textoplaylist{
-    background-color:#b48b75;
-    color: #ffeed7;
+    background-color:#fccebe;
+    color: #85755b;
     font-weight: 600;
     font-size:x-large;
     text-align: center;
@@ -360,15 +364,15 @@ textarea{
     grid-template-areas: "texto texto"
                          "input enviar";
     text-align: center;
-    background-color: #89463e;
+    background-color: #ffedda;
     align-items: center;
     
 }
 
 .textonewsteller{
     grid-area: texto;
-    background-color: #89463e;
-    color:#ffeed7;
+    background-color: #ffedda;
+    color:#85755b;
     font-weight: 600;
     font-size: x-large;
 }
@@ -392,11 +396,12 @@ textarea{
     position: relative;
     bottom: 14px;
     transition: all 0.3s ease;
+    background-color: #85755b;
+    color:#ffedda
 }
 
 .enviar2:hover{
-    background-color: #bdafa1;
-    color:#fff7eb;
+    background-color: #645844;
 }
 
 .maininicio{
