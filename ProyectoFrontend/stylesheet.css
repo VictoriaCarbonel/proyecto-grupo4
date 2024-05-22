@@ -269,7 +269,7 @@ textarea{
 .inicio{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 120px)  720px repeat(2,360px);
+    grid-template-rows: 250px 120px  720px repeat(2,360px);
     grid-template-areas: "presentacion"
                          "nuestroespacio"
                          "fotos"
@@ -280,17 +280,29 @@ textarea{
 .presentacion{
     grid-area: presentacion;
     font-weight:600;
-    margin: 30px;
+    margin: 20px;
+    font-size: x-large;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
 }
+
+.presentacion > p {
+    width: 900px;
+    text-align: center;
+}
+
 
 .nuestroespacio{
     grid-area: nuestroespacio;
     position: relative;
+    background-color: #b48b75;
 }
 
 .nuestroespacio > h3{
     font-size: xx-large;
     margin: 40px;
+    background-color: #b48b75;
 }
 
 
