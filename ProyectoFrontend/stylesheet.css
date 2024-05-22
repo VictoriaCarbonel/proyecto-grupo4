@@ -14,14 +14,7 @@ html, body { width: 100%;
              padding: 0; 
 }
 
-nav {
-    text-align: center;
-    padding: 15px;
-    position: sticky;
-    top: 0;
-    z-index: 1 ;
-    display:flexbox;
-}
+
 
 
 
@@ -42,6 +35,10 @@ header{
     width: 100%;
     justify-content: space-between;
     padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 2 ;
+    display:flex;
 }
 
 header >h2{
@@ -114,8 +111,14 @@ main{
     text-align: center;
 }
 
+
 .texto > p {
     font-style: italic;
+}
+
+.texto > h1 {
+    font-size: xx-large;
+    margin: 0;
 }
 
 .formulario {
