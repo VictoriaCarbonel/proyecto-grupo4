@@ -84,6 +84,24 @@ footer {
 footer * {
     background-color: inherit;
     color: #c2c882;
+    font-weight: 600;
+
+}
+
+footer > a {
+    font-size: small;
+}
+
+
+
+footer > lu{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   gap:65px;
+   padding: 15px;
+   list-style: none;
 }
 
 img {
