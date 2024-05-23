@@ -642,10 +642,11 @@ textarea{
     grid-template-rows: repeat(2,660px);
     grid-template-areas: "contenido"
                          "mapa";
+    text-align: center;
 }
 
    .container * {
-    width: 90%;
+    width: 100%;
    }
    
 }
