@@ -38,7 +38,7 @@ header{
     padding: 32px;
     position: sticky;
     top: 0;
-    z-index: 2 ;
+    z-index: 1;
     background-color: #b9595a;
     
 
@@ -50,6 +50,7 @@ header >h2{
     padding: 0;
     background-color: #b9595a;
     color: #322d27;
+    align-items: center;
 }
 
 header > nav{
