@@ -477,7 +477,7 @@ textarea{
 /*Web responsive*/
 
 @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
+    /* For tablets */
     footer{
         height: 220px;
         flex-direction: column;
@@ -489,5 +489,26 @@ textarea{
     header>h2{
         text-align: center;
     }
-    
+    .presentacion{
+        text-align: center;
+    }
+    .presentacion > h2{
+        font-size: 20px;
+        width: 100%;
+       
+    }
+    .presentacion > p {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .carrusel{
+        width: 100%;
+     
+    }
+
+    .newsteller {
+
+    }
+
 }
