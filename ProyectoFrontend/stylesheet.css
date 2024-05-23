@@ -639,7 +639,7 @@ textarea{
     
    .container{
     grid-template-columns: 100%;
-    grid-template-rows: repeat(2,660px);
+    grid-template-rows: repeat(2,580px);
     grid-template-areas: "contenido"
                          "mapa";
     text-align: center;
