@@ -511,8 +511,43 @@ textarea{
 
     .carrusel{
         width: 100%;
-     
     }
+
+    .playlist > .textoplaylist{
+        width: 95%;
+    }
+
+    .newsteller{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,100px);
+        grid-template-areas: "texto"
+                              "input"
+                              "enviar" ;
+        justify-items: center;
+    }
+
+    .newsteller > p {
+        width: 95%;
+        
+    }
+
+    .inputnews{
+        width: 50%;
+    height: 40%;
+
+    left: 0px;
+    bottom:0px;
+    align-self: center;
+    }
+
+    .enviar2{
+        width: 20%;
+        height: 40%;
+        bottom: 0px;
+        align-self: center;
+    }
+
+
 
 
     .compralibros{
