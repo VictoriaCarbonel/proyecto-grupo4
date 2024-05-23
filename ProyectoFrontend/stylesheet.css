@@ -358,6 +358,7 @@ textarea{
     grid-area: playlist;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    
     grid-template-areas: "spotify textoplaylist";
     text-align: right;
     background-color: #fccebe;
@@ -599,6 +600,10 @@ textarea{
         grid-template-rows: repeat(2,1fr);
         grid-template-areas: "textoplaylist"
                                "spotify";
+    }
+
+    .textoplaylist{
+        width: 100%;
     }
 
     .newsteller{
