@@ -150,14 +150,15 @@ main{
     grid-area: formulario;
     text-align: center;
     font-weight: 600;
+ 
+
 }
-
-
 
 form {
     font-size: large;
     padding: 20px;
     font-size: medium;
+    
     
 }
 
